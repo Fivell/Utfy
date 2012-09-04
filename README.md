@@ -1,6 +1,6 @@
 ### About
 
-Utfy is library to web grabbing different content and encode it to utf-8.
+Utfy is library for grabbing web content and encode it to utf-8.
 
 ### Requirements
 
