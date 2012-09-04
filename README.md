@@ -1,12 +1,12 @@
 ### About
 
-Utfy is library to web grabbing different content in different encoding and encode it to utf-8.
+Utfy is library to web grabbing different content and encode it to utf-8.
 
 ### Requirements
 
 * PHP >= 5.3
-* [PHP cURL][] (\Utfy\Grabber)
-* [PHP mbstring][] (\Utfy\Encoder)
+* PHP cURL
+* PHP mbstring
 
 ### Usage
 
