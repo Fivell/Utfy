@@ -14,7 +14,7 @@ Utfy is library for grabbing web content and encode it to utf-8.
     $grabber = new Grabber();
     //add array of urls
     $grabber->addUrl(array('http://koi8.pp.ru/', 'http://google.com'));
-    //add url with special curl options
+    //add url with custom curl options
     $grabber->addUrl('https://trust-host.ru/', array( CURLOPT_SSL_VERIFYPEER =>0,  CURLOPT_SSL_VERIFYHOST => 0));
     //grab!   
     $responses = $grabber->execute();
