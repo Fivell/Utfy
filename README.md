@@ -9,7 +9,7 @@ Utfy is library for simultaneous grabbing web content (multicurl) , auto detecti
 * PHP mbstring
 
 ### Usage
-
+```php
     use Utfy\Grabber;
     $grabber = new Grabber();
     //add array of urls
@@ -29,6 +29,5 @@ Utfy is library for simultaneous grabbing web content (multicurl) , auto detecti
         
     }
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Fivell/utfy/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+```
 
