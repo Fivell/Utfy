@@ -237,7 +237,7 @@ class PageData
         }
         if (!in_array(strtolower($this->_headers['Content-Type']), array_map('strtolower', Utils::getContentTypes()), 1)) {
             if (!in_array(strtolower($match[1]), array_map('strtolower', Utils::getContentTypes()), 1)) {
-                throw new PageException("Unsupported Content Typee");
+                throw new PageException("Unsupported Content-Type");
             }
         }
         $encoding = NULL;
